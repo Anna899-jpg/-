@@ -12,3 +12,5 @@ print_params(**values_dict)
 #3
 values_list_2 = (3, 'cat')
 print_params(*values_list_2, 42)
+print_params(b = 25)
+print_params(c = [1,2,3])
