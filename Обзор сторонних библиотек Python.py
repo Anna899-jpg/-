@@ -2,7 +2,6 @@ import requests
 
 
 def direction(degrees: float) -> str:
-    '''переводит азимут в розу ветров'''
     if degrees < 23:
         return "северный"
     elif degrees < 68:
